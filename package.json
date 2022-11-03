@@ -1,6 +1,7 @@
 {
+  "scripts": {
+    "dev": "bun --hot ./src/server.ts"
+  },
   "dependencies": {},
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  }
+  "devDependencies": {}
 }

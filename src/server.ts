@@ -4,6 +4,6 @@ const app = new Hono();
 app.get("/", (c) => c.text("Hello world!"));
 
 export default {
-  port: 3000,
+  port: 1337,
   fetch: app.fetch,
 };

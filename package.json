@@ -2,6 +2,6 @@
   "scripts": {
     "dev": "bun --hot ./src/server.ts"
   },
-  "dependencies": {},
+  "dependencies": { "hono": "^2.4.1" },
   "devDependencies": {}
 }
